@@ -18,22 +18,22 @@ export const DisplayTable = ({
   return (
     <div className="countryTaxTable">
       <div className="countryTaxTableContainer">
-        <div className="leftTaxTable">
+        <div className="taxTable">
           <h2>Employer taxes</h2>
           <div>Health Insurance: ${health}</div>
           <div>Social Security: ${employerSS}</div>
           <div>Payroll Tax: ${employerTax}</div>
           <div>
-            Total Cost: Gross salary + Sum of all employer taxes ($
+            Gross salary + Sum of all employer taxes ($
             {employerCost})
           </div>
         </div>
-        <div className="rightTaxTable">
+        <div className="taxTable">
           <h2>Employee taxes</h2>
           <div>Social Security: ${ss}</div>
           <div>Income tax: ${incomeTax}</div>
           <div>
-            Net Salary: Gross salary - Sum of all employee taxes ($
+            Gross salary - Sum of all employee taxes ($
             {netSalary})
           </div>
         </div>
