@@ -1,55 +1,55 @@
 {
   "CountryA": {
-    "HealthInsurance": 10.0,
-    "EmployerSocialSecurity": 5.0,
+    "HealthInsurance": 15.0,
+    "EmployerSocialSecurity": 4.0,
     "EmployerTaxBrackets": [
       {
-        "lvl": 50000,
-        "lvlRate": 10.0
+        "lvl": 20000,
+        "lvlRate": 15.0
       },
       {
         "lvl": -1,
-        "lvlRate": 30.0
+        "lvlRate": 27.0
       }
     ],
     "SocialSecurity": 20.0,
     "TaxBrackets": [
       {
-        "lvl": 25000,
+        "lvl": 35000,
         "lvlRate": 20.0
       },
-      { "lvl": -1, "lvlRate": 40.0 }
+      { "lvl": -1, "lvlRate": 30.0 }
     ]
   },
 
   "CountryB": {
-    "HealthInsurance": 21.5,
-    "EmployerSocialSecurity": 1.2,
+    "HealthInsurance": 15.5,
+    "EmployerSocialSecurity": 3.2,
     "EmployerTaxBrackets": [
       {
-        "lvl": 10000,
+        "lvl": 20000,
         "lvlRate": 5.0
       },
       {
-        "lvl": 22000,
+        "lvl": 42000,
         "lvlRate": 8.0
       },
       {
-        "lvl": 60000,
-        "lvlRate": 12.0
+        "lvl": 70000,
+        "lvlRate": 15.0
       },
       {
         "lvl": -1,
-        "lvlRate": 15.0
+        "lvlRate": 18.0
       }
     ],
-    "SocialSecurity": 6.5,
+    "SocialSecurity": 4.5,
     "TaxBrackets": [
       {
-        "lvl": 25000,
+        "lvl": 35000,
         "lvlRate": 5.0
       },
-      { "lvl": 75000, "lvlRate": 13.0 },
+      { "lvl": 75000, "lvlRate": 15.0 },
       { "lvl": -1, "lvlRate": 25.0 }
     ]
   }
